@@ -9,6 +9,10 @@ The project analyses 200 sales records to understand business performance, reven
 
 ![Sales Performance Dashboard](Sales_Performance_Dashboard.png)
 
+## Pivot Analysis
+
+![Sales Performance Pivot Analysis](Sales_Performance_Pivot_Analysis.png)
+
 ## Project Objectives
 - Analyse overall sales and profit.
 - Compare sales performance across regions.
