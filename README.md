@@ -5,6 +5,10 @@ This is a personal Data Analytics project developed using Microsoft Excel.
 
 The project analyses 200 sales records to understand business performance, revenue, profitability, regional sales, product-category performance, and monthly sales trends.
 
+## Dashboard Preview
+
+![Sales Performance Dashboard](Sales_Performance_Dashboard.png)
+
 ## Project Objectives
 - Analyse overall sales and profit.
 - Compare sales performance across regions.
