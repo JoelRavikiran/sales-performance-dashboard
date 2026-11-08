@@ -1,35 +1,75 @@
-# Sales Performance Analysis
+# Sales Performance Analysis using Microsoft Excel
 
 ## Project Overview
-This project focuses on analysing fictional sales data to understand sales performance, profitability, regional performance and product trends.
+This is a personal Data Analytics project developed using Microsoft Excel.
+
+The project analyses 200 sales records to understand business performance, revenue, profitability, regional sales, product-category performance, and monthly sales trends.
 
 ## Project Objectives
 - Analyse overall sales and profit.
-- Identify top-performing products and regions.
+- Compare sales performance across regions.
+- Identify sales contributions by product category.
 - Understand monthly sales trends.
 - Calculate important business KPIs.
-- Build an interactive sales dashboard.
+- Create a dashboard to present business insights.
 
-## Tools & Technologies
+## Tools and Features Used
 - Microsoft Excel
-- SQL
-- Microsoft Power BI
-
-## Skills Demonstrated
-- Data Cleaning
+- Excel Tables and Filters
+- Excel Formulas and Functions
 - Data Validation
-- Excel Formulas
 - PivotTables
-- SQL Queries
-- Data Visualization
+- PivotCharts
 - KPI Reporting
-- Business Insights
+- Dashboard Design
 
-## Dataset
-Fictional sales transaction data created for learning and portfolio development.
+## Project Workflow
+1. Imported and organised the sales dataset.
+2. Formatted the raw data and created a working copy.
+3. Calculated sales values and validated them against the original sales amounts.
+4. Created a KPI summary.
+5. Analysed sales by region, category, and month using PivotTables.
+6. Created PivotCharts to visualise the results.
+7. Built a Sales Performance Dashboard.
 
-## Project Status
-In Progress
+## Key Performance Indicators
 
-## Disclaimer
-This is a personal practice project using fictional data. It does not represent actual client or company data.
+| KPI | Result |
+|---|---:|
+| Total Sales | ₹1,21,34,225.00 |
+| Total Profit | ₹32,48,983.20 |
+| Total Orders | 200 |
+| Total Units Sold | 908 |
+| Profit Margin | 26.78% |
+
+## Key Findings
+- East was the highest-performing region by sales.
+- Electronics contributed approximately 81.7% of total sales.
+- February recorded the highest monthly sales.
+- July recorded the lowest monthly sales.
+- All 200 calculated sales records matched the original sales amounts.
+
+## Data Validation
+Calculated sales were compared with the original SalesAmount values.
+
+- Matching records: 200
+- Mismatched records: 0
+
+## Workbook Structure
+| Worksheet | Description |
+|---|---|
+| Dashboard | Visual summary of sales performance |
+| KPI_Summary | Key business performance indicators |
+| Pivot_Analysis | Sales analysis using PivotTables and PivotCharts |
+| Cleaned_Data | Calculated sales and validation results |
+| Raw_Data | Original sales dataset |
+
+## Project Files
+- `Ravikiran_Sales_Performance_Analysis.xlsx` – Completed Excel analysis project.
+- `Sales_Performance_Practice.xlsx` – Original practice workbook.
+
+## Project Outcome
+Developed an Excel-based sales analysis solution using formulas, data validation, PivotTables, PivotCharts, and a dashboard to summarise business performance and identify key sales trends.
+
+**Project Type:** Personal Practice Project  
+**Tool:** Microsoft Excel
