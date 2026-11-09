@@ -112,7 +112,7 @@ The project uses the same sales dataset as Project 1, containing 200 sales recor
 - **Microsoft Excel** – Initial data analysis and validation.
 - **GitHub** – Project documentation and portfolio hosting.
 
-- ## Dataset Details
+ ## Dataset Details
 
 The dataset contains 200 sales records with the following columns:
 
@@ -145,7 +145,7 @@ The following steps were completed:
 - Verified that OrderID contains 200 unique order IDs.
 - Applied the changes and loaded the cleaned data into Power BI.
 
-- ## DAX Measures
+ ## DAX Measures
 
 The following DAX measures were created to calculate key business performance indicators.
 
@@ -221,3 +221,8 @@ The following results were successfully validated:
 - All 3 category sales totals matched.
 
 This validation confirmed that the Power BI analysis was consistent with the Excel project.
+
+## Project Files
+
+- [Download Excel Analysis Workbook](Ravikiran_Sales_Performance_Analysis.xlsx)
+- [Download Power BI Dashboard](Ravikiran_Sales_Performance_Dashboard.pbix)
