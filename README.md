@@ -185,6 +185,8 @@ The Power BI dashboard includes five KPI cards:
 
 ### Dashboard Visualizations
 
+![Power BI Sales Performance Dashboard](PowerBI_Sales_Performance_Dashboard.png)
+
 Three charts were developed:
 
 1. **Sales Performance by Region** – Compares sales across East, West, North, and South.
