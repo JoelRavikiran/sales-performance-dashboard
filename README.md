@@ -1,4 +1,6 @@
-# Sales Performance Analysis using Microsoft Excel
+# Sales Performance Analysis Portfolio
+
+# Project 1: Excel Sales Performance Analysis
 
 ## Project Overview
 This is a personal Data Analytics project developed using Microsoft Excel.
@@ -41,6 +43,8 @@ The project analyses 200 sales records to understand business performance, reven
 7. Built a Sales Performance Dashboard.
 
 ## Key Performance Indicators
+
+The dashboard highlights five key measures: total sales, total profit, total orders, total units sold, and profit margin.
 
 | KPI | Result |
 |---|---:|
@@ -175,7 +179,7 @@ These measures were used to build the dashboard KPI cards.
 
 ## Dashboard Features
 
-The Power BI dashboard includes five KPI cards:
+The Power BI dashboard includes five KPI cards that provide a quick summary of business performance:
 
 - **Total Sales:** ₹1,21,34,225
 - **Total Profit:** ₹32,48,983
@@ -201,7 +205,7 @@ Three slicers were added:
 - Category
 - Order Date
 
-Selecting a slicer updates the KPI cards and charts based on the selected data.
+The slicers allow users to filter the report by region, product category, and order date. The KPI cards and charts update to reflect the selected filters.
 
 ## Key Findings
 
