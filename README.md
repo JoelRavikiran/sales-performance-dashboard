@@ -81,3 +81,143 @@ Developed an Excel-based sales analysis solution using formulas, data validation
 
 **Project Type:** Personal Practice Project  
 **Tool:** Microsoft Excel
+
+---
+
+# Project 2: Power BI Sales Performance Dashboard
+
+## Project Overview
+
+This project focuses on analyzing sales performance using Microsoft Power BI.
+
+The interactive dashboard provides insights into total sales, total profit, total orders, profit margin, product quantity, regional performance, category performance, and monthly sales trends.
+
+The project uses the same sales dataset as Project 1, containing 200 sales records, to demonstrate data cleaning, data analysis, DAX calculations, and interactive dashboard development.
+
+## Project Objectives
+
+- Analyze overall sales and profit performance.
+- Calculate important business KPIs.
+- Compare sales performance across different regions.
+- Analyze sales performance by product category.
+- Identify monthly sales trends.
+- Build an interactive dashboard using Power BI.
+- Support data-driven business decisions through visual reporting.
+
+## Tools Used
+
+- **Microsoft Power BI Desktop** – Dashboard development and data visualization.
+- **Power Query** – Data cleaning and preparation.
+- **DAX** – KPI calculations and measures.
+- **Microsoft Excel** – Initial data analysis and validation.
+- **GitHub** – Project documentation and portfolio hosting.
+
+- ## Dataset Details
+
+The dataset contains 200 sales records with the following columns:
+
+- OrderID
+- OrderDate
+- Region
+- SalesRep
+- Customer
+- Product
+- Category
+- Quantity
+- UnitPrice
+- DiscountPct
+- SalesAmount
+- CostAmount
+- Profit
+
+The dataset was sourced from the Excel sales performance project and imported into Power BI for further analysis.
+
+## Data Cleaning and Preparation
+
+Data preparation was performed using Power Query in Power BI.
+
+The following steps were completed:
+
+- Imported the Cleaned_Data sheet from the Excel workbook.
+- Removed the unnecessary Total Mismatch helper column.
+- Assigned appropriate data types to each column.
+- Checked important fields for blank or missing values.
+- Verified that OrderID contains 200 unique order IDs.
+- Applied the changes and loaded the cleaned data into Power BI.
+
+- ## DAX Measures
+
+The following DAX measures were created to calculate key business performance indicators.
+
+**1. Total Sales**
+```DAX
+Total Sales = SUM('Cleaned_Data'[SalesAmount])
+```
+
+**2. Total Profit**
+```DAX
+Total Profit = SUM('Cleaned_Data'[Profit])
+```
+
+**3. Profit Margin**
+```DAX
+Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+```
+
+**4. Total Quantity**
+```DAX
+Total Quantity = SUM('Cleaned_Data'[Quantity])
+```
+
+Additional display measures were created to show sales and profit values in full-number format.
+
+These measures were used to build the dashboard KPI cards.
+
+## Dashboard Features
+
+The Power BI dashboard includes five KPI cards:
+
+- **Total Sales:** ₹1,21,34,225
+- **Total Profit:** ₹32,48,983
+- **Total Orders:** 200
+- **Profit Margin:** 26.78%
+- **Total Quantity:** 908
+
+### Dashboard Visualizations
+
+Three charts were developed:
+
+1. **Sales Performance by Region** – Compares sales across East, West, North, and South.
+2. **Sales Performance by Category** – Compares sales across Electronics, Furniture, and Accessories.
+3. **Monthly Sales Trend** – Displays monthly sales performance from January to October 2026.
+
+### Interactive Slicers
+
+Three slicers were added:
+
+- Region
+- Category
+- Order Date
+
+Selecting a slicer updates the KPI cards and charts based on the selected data.
+
+## Key Findings
+
+- Total sales across 200 orders amounted to ₹1,21,34,225.
+- Total profit was ₹32,48,983.
+- Overall profit margin was 26.78%.
+- East was the highest-performing region, with sales of ₹40,07,010.
+- Electronics was the highest-performing category, with sales of ₹99,16,650.
+- Monthly sales performance was analyzed from January to October 2026.
+
+## Data Validation
+
+The Power BI dashboard results were compared with the Excel Pivot_Analysis sheet.
+
+The following results were successfully validated:
+
+- All 10 monthly sales totals matched.
+- All 4 regional sales totals matched.
+- All 3 category sales totals matched.
+
+This validation confirmed that the Power BI analysis was consistent with the Excel project.
